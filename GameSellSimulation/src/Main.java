@@ -10,7 +10,7 @@ import Entities.User;
 public class Main {
 
 	public static void main(String[] args) {
-		User user = new User("51513513","Talha","Balcı","1995");
+		User user = new User("51513513","meric","alp","1995");
 		UserManager userManager = new UserManager();
 		userManager.signIn(user);
 		userManager.updateAccount(user);
@@ -22,7 +22,7 @@ public class Main {
 		campaignManager.deleteCampaign(campaign);
 		
 		
-		Game game = new Game(1,"Resident Evil 3",40);
+		Game game = new Game(1,"formula1",40);
 		GameManager gameManager = new GameManager();
 		gameManager.addGame(game);
 		gameManager.update(game);
